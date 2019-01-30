@@ -1,0 +1,56 @@
+body{background-image:url("pizza.jpg");
+background-size:1400px,768px}
+
+
+h3{font-size:30px;margin:30px 15px 0px 15px;color:white;display:inline; 
+text-decoration:none;}
+
+h1{;font-family:courier;  font-size:100px;  color:brown;
+text-align-top: 47%;
+text-align:center center;   text-shadow:3px 2px 2px;}
+
+a{text-decoration:none;}
+
+.heading{margin: 150px auto auto 300px;}
+
+.menu{margin:100px 50px 10px 10px;}
+
+.single{color:yellow;}
+
+img{width:300; height:300; float:left;margin-right:20px;float:left;}
+
+.abt{background-image:-webkit-linear-gradient(#336666,#66cccc);}
+
+.abtus{cursor:crosshair;margine:50px,auto,auto,300px;font-family:"Comic Sans MS","courier new";
+font-size:20px;color:cyan;}
+
+h2{text-align:center;color:Yellow;font-size:30;margin-bottom:30px;}
+
+
+
+li{font-size:22px;}
+
+.menu{background-color:black;position:absolute;
+top:1px;right:900px;height:1000;
+width:400;}
+a{color:blue};
+a:hover{color:yellow;}
+a:visited{color:pink;}
+
+.contact{box-shadow: 5px 5px 5px #777777;margin:100px 50px 10px 10px;position:fixed;top:1px;left:1px;background-color:grey;width:500px;}
+
+
+
+.order{box-shadow: 5px 5px 5px #777777;margin:100px 50px 10px 10px;position:absolute;top:1px;left:1px;background-color:grey;width:1000px;}
+select{top:200px;left:200px;}
+
+td {border: 1px solid black;padding: 15px;}
+th {border: 1px solid black;padding: 15px;}
+
+.map{top: 50px;left:100px;}
+
+
+div.footer{position:fixed;bottom:0px;right:0px;font-size:25px;color:white;background-color:green;}
+
+div.video{position:absolute;right:200px;top:100px;}
+

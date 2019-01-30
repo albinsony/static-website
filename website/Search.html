@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>search</title>
+<link href="homepizza.css" type="text/css" rel="stylesheet"/>
+
+</head>
+<body>
+
+
+<a href="home.html"><h3>Home</h3></a>
+<a href="menu.html"><h3>Menu</h3></a>
+<a href="aboutUs.html"><h3>About Us</h3></a>
+<a href="contactUs.html"><h3>Contact Us</h3></a>
+<a href="order.html"><h3>Order Online</h3></a>
+<a href="Search.html"><h3>Search</h3></a>
+
+
+<div class="order"><form action="http://example.com/join.php"
+method="get">
+<h2>Search</h2>
+<br/>
+<fieldset><br/>
+<input type="text" name="keyword" placeholder="keyword"/>
+&nbsp <input type="submit" value="search"/><br/></br>
+
+<p><label>Order ID  :<input type="text" name="Orderid"></br></br>
+<label>Type  : <input type="radio" name="type" value="delivery" checked="checked"/>Delivery
+<input type="radio" name="type" value="PickUp"/>Pickup</label></p>
+
+<label>Pizza Size:
+<fieldset>
+<input type="checkbox" name="size"
+value="Single X-Large Pizza"
+ /> Single X-Large Pizza
+&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="checkbox" name="size"
+value="Single Party Pizza"
+ /> Single Party Pizza
+<br/>
+<input type="checkbox" name="size"
+value="Twin Medium Pizza"
+ /> Twin Medium Pizza combo
+&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="checkbox" name="size"
+value="Twin Large Pizza"
+ /> Twin Large Pizza combo
+
+<input type="checkbox" name="size"
+value="Twin X-Large Pizza"
+ /> Twin X-Large Pizza combo
+&nbsp&nbsp&nbsp&nbsp
+<input type="checkbox" name="size"
+value="Twin Party Pizza"
+ /> Twin Party Pizza combo
+
+
+</fieldset>
+</label><br/><br/>
+
+&nbsp &nbsp&nbsp&nbsp
+<input type="submit" value="search"/><br/><br/>
+
+<label>Sample Search Result : 
+<table>
+<tr>
+<th>Order ID</th>
+<th>Delivery/Pickup</th>
+<th>Order Status</th>
+</tr>
+<tr>
+<td>69296</td><td>Delivery</td><td>on the way</td></tr>
+<tr>
+<td>69297</td><td>Pickup</td><td>Not Ready</td></tr>
+<tr>
+<td>69298</td><td>Pickup</td><td>Ready</td></tr>
+
+</table> 
+
+<div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6 . . . . .10</a>
+  <a href="#">&raquo;</a>
+</div>
+
+
+<div class="footer" align="bootom">
+<p class="footer">Created by : Albin Technologies <br/>
+  Contact information : <a href="mailto:albintechnologies@yahoo.com">
+  albintechnologies@yahoo.com</a></div>
+
+</body>
+</html>
